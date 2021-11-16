@@ -3,6 +3,10 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
+    backgroundColor: theme => ({
+      'yellow-hubb': '#FFC865',
+      'white': '#fff'
+     })
   },
   variants: {
     extend: {},
